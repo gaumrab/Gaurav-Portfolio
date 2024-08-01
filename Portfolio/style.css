@@ -1,0 +1,245 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: "Fira Sans Extra Condensed", sans-serif;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    background-color:#d7d7fce7;
+    overflow-x: hidden;
+}
+
+.parent{
+    height: 100%;
+    width: 100%;
+}
+.page1{
+    height: 100%;
+    width: 100%;
+    display: grid;
+    grid-template-rows: 55% 45%;
+    background-color: #E1DFDD;
+}
+
+.box1{
+    display: flex;
+    justify-content: space-between;
+    padding: 4vh;
+    text-transform: uppercase;
+    font-size: 5vh;
+}
+.box1 #nav{
+    height: 40vh;
+    width: 50vw;
+}
+#nav h1{
+    font-size: 15vh;
+    line-height: 15vh;
+    font-weight: 500;
+}
+.box1 img{
+    width: 20%;
+    object-fit: cover;
+    height: 110%;
+    transform-origin: 50px;
+}
+
+
+.box2{
+    display: flex;
+    justify-content: space-between;
+    padding: 4vh;
+}
+.box2 i{
+    padding-top: 130px;
+    font-size: 5vh;
+}
+.box2 h1{
+    font-size: 8vw;
+    text-transform: uppercase;
+    padding-top: 2vw;
+    font-weight: 450;
+}
+
+.page2{
+    background-color:#000000;
+    height: 100%;
+    width: 100%;
+    transform-origin: -50% 0px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+.page2 h1{
+    width: 70%;
+    font-size: 4vw;
+    margin-top:4%;
+    overflow: hidden;
+}
+
+.page3{
+    height: 220vh;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+}
+
+
+#edu{
+    font-size: 25vw;
+    letter-spacing: -12px;
+    text-transform: uppercase;
+    color:black;
+    width: 100%;
+}
+
+
+.gola{
+    background-color:#d7d7fce7;
+    border-radius: 50px;
+    height: 20px;
+    width: 20px;
+}
+
+.line{
+    height: 69%;
+    width: 1px;
+    background-color:#d7d7fce7;
+}
+
+
+.details{
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    top: 16%;
+    left: 4%;
+    overflow: hidden;
+    width: 46%;
+}
+.details .line1{
+    height: 1px;
+    width: 100%;
+    background-color: white;
+    margin-left: 100%;
+}
+.details .line2{
+    height: 1px;
+    width: 100%;
+    background-color: white;
+    margin-right: 100%;
+}
+.details .gola1{
+    height: 15px;
+    width: 15px;
+    background-color: white;
+    border-radius: 50px;
+}
+
+
+.details:nth-child(3){
+    top: 40%;
+    left: 50%;
+}
+.details:nth-last-child(1){
+    position:static;
+}
+.details:nth-last-child(1) .box{
+    width: 35vw;
+    height: 60vh;
+}
+#tri{
+    height: 30px;
+    width: 30px;
+    transform: rotate(47deg);
+    background-color:#d7d7fc;
+    margin-top: 5px;
+}
+.details .box{
+    height: 50vh;
+    width: 30vw;
+    background-color:#d7d7fc;
+    border-radius: 60px;
+    margin-top: -17px;
+}
+.page4{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    background-color: #24170a;
+    overflow: hidden;
+}
+.page4 h1{
+   font-size: 90vw;
+   width: 100%;
+   color: black;
+}
+
+.page5{
+    width: 100%;
+    height: 100%;
+    padding: 2%;
+    display: flex;
+    gap: 20px;
+    overflow: hidden;
+    background-color: black;
+}
+.page6{
+    font-size: 5vw;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 5%;
+    padding-top: 3%;
+}
+.tech{
+    display: flex;
+    gap: 10%;
+}
+.tech1 h2{
+    text-decoration: underline;
+}
+.tech2 h2{
+    text-decoration: underline;
+}
+.tech3 h2{
+    text-decoration: underline;
+}
+.end{
+    background-color: black;
+    color: #d7d7fc;
+    padding: 3%;
+    padding-left: 5%;
+    font-size: 5vw;
+}
+.btt{
+    color: #d7d7fc;
+    background-color: black;
+    cursor: pointer;
+    display: flex;
+    border: 2px solid #d7d7fc;
+    justify-content: center;
+ }
+ #myBtn {
+    padding: 1%;
+    border-radius: 10%;
+    background-color: black;
+    color: #d7d7fc;
+    font-size: 2vw;
+    border: none;
+ }
+
+
+
